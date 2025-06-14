@@ -1,0 +1,15 @@
+names:
+- kurta_bottom
+- kurta_left
+- kurta_right
+- shirt
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: vto-inpainting
+  url: https://universe.roboflow.com/imageinpainting-vnx6b/vto-inpainting/dataset/1
+  version: 1
+  workspace: imageinpainting-vnx6b
+test: ../test/images
+train: VTO-Inpainting-1/train/images
+val: VTO-Inpainting-1/valid/images
